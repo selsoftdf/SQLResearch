@@ -1,1 +1,1 @@
-select @@VERSION as version,@@SERVERNAME as instance_name
+select @@VERSION as version,@@SERVERNAME as instance_name,HOST_NAME() as host_name
