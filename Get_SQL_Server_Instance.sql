@@ -1,0 +1,1 @@
+select @@VERSION as version,@@SERVERNAME as instance_name
